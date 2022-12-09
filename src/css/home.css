@@ -1,0 +1,86 @@
+.top-deco {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(197deg, var(--defaultgreen), #6e11b0);
+    border-radius: 10%;
+    left: -15px;
+    top: -10px;
+    opacity: .5;
+    z-index: -1;
+}
+
+.text-color {
+    color: #353536;
+}
+
+.bottom-deco {
+    width: 150px;
+    height: 150px;
+    border: 30px var(--defaultgreen) solid;
+    border-radius: 50%;
+    right: 5px;
+    bottom: -5px;
+    opacity: .2;
+    z-index: -1;
+}
+
+.home-wrapper {
+    width: 95%;
+    background-color: #f3f5fb;
+    margin-top: 30px;
+    height: 90vh;
+    /* padding: 15px; */
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.user-details {
+    background-color: white;
+    border-radius: 10px;
+    height: 70px;
+    padding: 10px;
+    /* box-shadow: rgba(163, 163, 169, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(191, 191, 196, 0.2) 0px 7px 29px 0px;
+}
+
+.fagg {
+    width: 40px;
+    height: 40px;
+    background-color: #4b00821a;
+    border-radius: 6px;
+}
+
+.table {
+    border-collapse: collapse;
+    box-shadow: rgba(160, 160, 169, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+
+}
+
+.table th,
+.table td {
+    font-weight: 500;
+    font-size: 13px;
+    height: 60px;
+    border-bottom: 1px rgb(212, 212, 212) solid;
+    text-align: left;
+    color: gray;
+}
+
+.table th:nth-child(1),
+
+.table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
+
+.table th:nth-child(8) {
+    width: 300px;
+}
+
+.unfriend-btn {
+    background: transparent !important;
+    border: 1px red solid !important;
+    color: red !important;
+}

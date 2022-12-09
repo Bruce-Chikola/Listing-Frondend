@@ -1,0 +1,80 @@
+.sign-in-float {
+    box-shadow: rgba(38, 103, 250, 0.15) 0px 7px 20px 0px;
+}
+
+.left-cover {
+    background-color: #2ac489;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.left-cover>* {
+    overflow: 2;
+}
+
+.circle-bottom {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 90px #2ac489 solid;
+    bottom: -100px;
+    left: -100px;
+    z-index: -1;
+    opacity: .3;
+}
+
+.circle-center {
+    width: 40px;
+    height: 100px;
+    background-color: #2ac489;
+    border-radius: 20px;
+}
+
+.circle-top {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    transform: rotate(50deg);
+    background-color: #2ac489;
+    border: 30px #2ac489 solid;
+    opacity: .7;
+    top: 300px;
+    right: -110px;
+    z-index: -1;
+}
+
+.circle-big {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    /* transform: rotate(50deg); */
+    background: linear-gradient(180deg, rgb(38, 103, 250), rgb(75, 0, 130));
+    /* opacity: .7; */
+    top: 90px;
+    left: 170px;
+    z-index: -1;
+    opacity: .2;
+}
+
+.welcome-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sign-in-line {
+    height: 1.5px;
+    background-color: rgb(185, 184, 184);
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    background-color: #eae9ec;
+    border-radius: 50%;
+    z-index: 0;
+    opacity: .8;
+}
+
+.error-field {
+    border-color: red !important
+}

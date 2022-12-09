@@ -1,0 +1,18 @@
+.user {
+    height: 70px;
+}
+
+.user-table {
+    border-collapse: collapse;
+}
+
+.user-table th {
+    text-align: left;
+    height: 60px;
+    background-color: rgb(220, 220, 220);
+}
+
+td {
+    height: 50px;
+    border-bottom: 1px rgb(17, 173, 131) solid;
+}

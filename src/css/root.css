@@ -1,0 +1,34 @@
+:root {
+    --defaultblue: #2667fa;
+    --defaultdark: #0b2239;
+    --textColor: #112233;
+    --defaultorange: #d05a17;
+    --defaultbackground: #f1f5ff;
+}
+
+body {
+    color: var(--textColor);
+}
+
+.rbtn {
+    min-width: 100px;
+    height: 40px;
+    background-color: var(--defaultdark);
+    color: white;
+    font-size: 13px;
+    transition: .3s;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.rbtn:hover {
+    opacity: .9;
+}
+
+.r-5 {
+    border-radius: 5px;
+}
+
+.r-10 {
+    border-radius: 10px;
+}
